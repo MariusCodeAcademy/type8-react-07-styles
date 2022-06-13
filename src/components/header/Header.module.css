@@ -1,4 +1,4 @@
-header {
+.header {
   background-color: #333;
   color: snow;
   display: flex;
@@ -12,7 +12,8 @@ header {
 .nav-link:hover {
   background-color: rgb(117, 117, 117);
 }
-button {
+
+.button {
   background-color: #333;
   color: snow;
   border: none;

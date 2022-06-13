@@ -1,20 +1,20 @@
-import './Header.css';
+import css from './Header.module.css';
 
 function Header() {
   return (
-    <header>
+    <header className={css.header}>
       <nav className='main-nav'>
-        <a className='nav-link' href='#home'>
+        <a className={css['nav-link']} href='#home'>
           Home
         </a>
-        <a className='nav-link' href='#about'>
+        <a className={css['nav-link']} href='#about'>
           About
         </a>
-        <a className='nav-link' href='#contact'>
+        <a className={css['nav-link']} href='#contact'>
           Contact
         </a>
       </nav>
-      <a className='nav-link search' href='#search'>
+      <a className={css['nav-link']} href='#search'>
         Search
       </a>
     </header>
