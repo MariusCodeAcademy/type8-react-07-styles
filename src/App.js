@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './components/header/Header';
+import MyButton from './components/MyButton/MyButton';
 
 function App() {
   const isLarge = true;
@@ -15,6 +16,7 @@ function App() {
       <h1>Heloo again world</h1>
       <button style={btnStyles}>Click me</button>
       <button>Click me no style</button>
+      <MyButton />
     </div>
   );
 }
