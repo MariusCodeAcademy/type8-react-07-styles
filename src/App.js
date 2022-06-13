@@ -1,5 +1,6 @@
 import './App.css';
 import Card from './components/Card/Card';
+import CardStyled from './components/CardStyled/Card';
 import Header from './components/header/Header';
 import MyButton from './components/MyButton/MyButton';
 
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className='App'>
       <Header />
+      <CardStyled />
       <Card />
       <h1>Heloo again world</h1>
       <button style={btnStyles}>Click me</button>
