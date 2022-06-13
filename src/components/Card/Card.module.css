@@ -1,0 +1,25 @@
+.card {
+  max-width: 30%;
+  margin-left: 20px;
+}
+
+.img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  object-position: top;
+}
+/* .Card_info__ZFLLU .Card_date__VLGDZ */
+.date {
+  color: gray;
+}
+.info h3 {
+  font-weight: normal;
+  font-size: 25px;
+  margin-top: 0;
+}
+
+.text {
+  line-height: 1.3;
+  color: #333;
+}
