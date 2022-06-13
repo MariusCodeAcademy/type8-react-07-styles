@@ -1,5 +1,8 @@
 .btn {
-  background-color: coral;
+  background-color: #333;
+  color: snow;
+  border: none;
+  padding: 0.5em 1em;
 }
 /* taip neikelinejam butinai reikalinga klase */
 /* button {

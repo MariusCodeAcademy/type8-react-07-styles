@@ -1,8 +1,8 @@
 import css from './MyButton.module.css';
 
-function MyButton() {
-  console.log('css ===', css);
-  return <button className={css.btn}>I am button component</button>;
+function MyButton(props) {
+  // console.log('css ===', css);
+  return <button className={`${css.btn} ${props.className}`}>{props.children}</button>;
 }
 
 export default MyButton;

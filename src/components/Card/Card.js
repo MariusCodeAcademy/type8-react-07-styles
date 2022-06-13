@@ -1,3 +1,4 @@
+import MyButton from '../MyButton/MyButton';
 import css from './Card.module.css';
 
 function Card() {
@@ -16,6 +17,7 @@ function Card() {
           Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales
           pellentesque elementum.
         </p>
+        <MyButton className={css.button}>Buy tickets</MyButton>
       </div>
     </div>
   );
