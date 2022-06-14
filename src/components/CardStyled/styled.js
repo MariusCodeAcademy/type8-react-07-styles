@@ -1,8 +1,15 @@
 import styled from 'styled-components';
 
 export const Card = styled.div`
-  max-width: 30%;
+  max-width: 50%;
   margin-left: 20px;
+  & .subtitle {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 600px) {
+    max-width: 100%;
+  }
 `;
 
 export const Image = styled.img`
@@ -49,4 +56,11 @@ export const Btn = styled.button`
 
 export const ActiveBtn = styled(Btn)`
   background-color: coral;
+`;
+
+export const Checkbox = styled.input.attrs({
+  type: 'email',
+  placeholder: 'Your email please',
+})`
+  display: block;
 `;

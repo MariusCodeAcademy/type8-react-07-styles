@@ -2,7 +2,17 @@ import { useState } from 'react';
 import styled from 'styled-components';
 
 import MyButton from '../MyButton/MyButton';
-import { ActiveBtn, Btn, Card, CardInfo, Image, MyDate, Text, Title } from './styled';
+import {
+  ActiveBtn,
+  Btn,
+  Card,
+  CardInfo,
+  Checkbox,
+  Image,
+  MyDate,
+  Text,
+  Title,
+} from './styled';
 
 const StyledMyBtn = styled(MyButton)`
   text-transform: uppercase;
@@ -20,9 +30,11 @@ function CardStyled() {
     <Card>
       <Image src='https://picsum.photos/id/1025/600/600' alt='card header' />
       <CardInfo>
+        <Checkbox />
         <Title>New York {isLoggedIn.toString()}</Title>
         <Title dark={isLoggedIn}>New York</Title>
         <MyDate>2022</MyDate>
+        <h2 className='subtitle'>I am h2</h2>
         <Text>
           Phasellus eget enim eu <span>lectus faucibus</span> vestibulum. Suspendisse
           sodales pellentesque elementum.
