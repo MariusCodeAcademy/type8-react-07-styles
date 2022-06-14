@@ -3,6 +3,7 @@ import Card from './components/Card/Card';
 import CardStyled from './components/CardStyled/Card';
 import Header from './components/header/Header';
 import MyButton from './components/MyButton/MyButton';
+import Search from './components/Search/Search';
 
 function App() {
   const isLarge = true;
@@ -11,6 +12,8 @@ function App() {
     background: 'blue',
     fontSize: isLarge ? '25px' : '10px',
   };
+
+  return <Search />;
 
   return (
     <div className='App'>
